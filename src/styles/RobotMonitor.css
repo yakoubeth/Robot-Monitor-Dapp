@@ -1,0 +1,71 @@
+.robot-monitor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.robot-monitor-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.robot-monitor-info p {
+    margin: 0 1rem;
+}
+
+.robot-monitor-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.robot-monitor-buttons button {
+    margin-bottom: 1rem;
+}
+
+.robot-monitor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.robot-monitor-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.robot-monitor-info p {
+    margin: 0 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.robot-monitor-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.robot-monitor-buttons button {
+    margin-bottom: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.robot-monitor-buttons button:hover {
+    background-color: #45a049;
+}
